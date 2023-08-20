@@ -24,3 +24,7 @@ Route::get('/daftar', function () {
 Route::get('/post', function () {
     return view('index');
 });
+
+Route::get('/jacob', function () {
+    return view('jacob');
+});
